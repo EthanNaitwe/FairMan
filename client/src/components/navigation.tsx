@@ -30,7 +30,7 @@ export default function Navigation() {
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center space-x-2">
             <div className="w-8 h-8 hero-gradient rounded-full"></div>
-            <span className="font-bold text-xl text-[var(--off-white)] font-sans">Kwame Asante</span>
+            <span className="font-bold text-xl text-[var(--off-white)] font-sans">Fair Man</span>
           </div>
           
           {/* Desktop Navigation */}

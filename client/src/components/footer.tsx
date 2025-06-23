@@ -16,7 +16,7 @@ export default function Footer() {
             <div className="md:col-span-2">
               <div className="flex items-center space-x-3 mb-4">
                 <div className="w-10 h-10 hero-gradient rounded-full"></div>
-                <span className="font-bold text-2xl text-[var(--off-white)]">Kwame Asante</span>
+                <span className="font-bold text-2xl text-[var(--off-white)]">Fair Man</span>
               </div>
               <p className="text-[var(--off-white)]/60 mb-6 max-w-md">
                 Bridging tradition with tomorrow's sound. From the heart of Uganda to the world stage, crafting rhythms that celebrate African heritage.
@@ -99,7 +99,7 @@ export default function Footer() {
           
           <div className="border-t border-[var(--off-white)]/10 pt-8 flex flex-col md:flex-row justify-between items-center">
             <p className="text-[var(--off-white)]/60 text-sm mb-4 md:mb-0">
-              © 2024 Kwame Asante. All rights reserved.
+              © 2024 Fair Man. All rights reserved.
             </p>
             <div className="flex space-x-6 text-sm text-[var(--off-white)]/60">
               <a href="#" className="hover:text-[var(--african-red)] transition-colors">Privacy Policy</a>

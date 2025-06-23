@@ -50,7 +50,7 @@ export default function MusicSection() {
             </h2>
             <div className="w-24 h-1 bg-[var(--golden-yellow)] mx-auto rounded-full"></div>
             <p className="text-[var(--off-white)]/80 mt-6 max-w-2xl mx-auto">
-              Explore Kwame's musical journey through his latest releases and acclaimed albums
+              Explore Fair Man's musical journey through his latest releases and acclaimed albums
             </p>
           </div>
           

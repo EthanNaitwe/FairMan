@@ -73,7 +73,7 @@ export default function TourSection() {
             </h2>
             <div className="w-24 h-1 bg-[var(--royal-purple)] mx-auto rounded-full"></div>
             <p className="text-[var(--off-white)]/80 mt-6 max-w-2xl mx-auto">
-              Join Kwame on his world tour bringing Ubuntu Rhythms to stages across the globe
+              Join Fair Man on his world tour bringing Ubuntu Rhythms to stages across the globe
             </p>
           </div>
           

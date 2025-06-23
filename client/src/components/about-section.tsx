@@ -8,7 +8,7 @@ export default function AboutSection() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="font-bold text-4xl md:text-5xl mb-6 text-gradient">
-              About Kwame
+              About Fair Man
             </h2>
             <div className="w-24 h-1 bg-[var(--rich-green)] mx-auto rounded-full"></div>
           </div>
@@ -17,7 +17,7 @@ export default function AboutSection() {
             <div className="space-y-6">
               <img
                 src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=1000"
-                alt="Kwame Asante portrait"
+                alt="Fair Man portrait"
                 className="rounded-2xl shadow-2xl w-full max-w-md mx-auto lg:mx-0"
               />
               
@@ -52,13 +52,13 @@ export default function AboutSection() {
                 <div className="pl-8">
                   <h3 className="font-semibold text-2xl mb-4 text-[var(--off-white)]">The Journey</h3>
                   <p className="text-[var(--off-white)]/80 leading-relaxed mb-6">
-                    Born into a family of traditional musicians in Kampala, Kwame Asante discovered his calling at age 7 when he first heard his grandfather's adungu echoing through their family compound. This moment sparked a lifelong journey of blending Uganda's rich musical heritage with contemporary global sounds.
+                    Born into a family of traditional musicians in Kampala, Fair Man discovered his calling at age 7 when he first heard his grandfather's adungu echoing through their family compound. This moment sparked a lifelong journey of blending Uganda's rich musical heritage with contemporary global sounds.
                   </p>
                   <p className="text-[var(--off-white)]/80 leading-relaxed mb-6">
-                    After studying music production in Nairobi and collaborating with artists across the East African music scene, Kwame developed his signature sound – a vibrant fusion of traditional Ugandan rhythms, modern Afrobeat, and international influences that speaks to both local communities and global audiences.
+                    After studying music production in Nairobi and collaborating with artists across the East African music scene, Fair Man developed his signature sound – a vibrant fusion of traditional Ugandan rhythms, modern Afrobeat, and international influences that speaks to both local communities and global audiences.
                   </p>
                   <p className="text-[var(--off-white)]/80 leading-relaxed">
-                    Today, Kwame continues to push boundaries, using his platform to celebrate African culture while addressing contemporary social issues through his music. His latest album "Ubuntu Rhythms" has garnered international acclaim and positioned him as one of Africa's most promising musical ambassadors.
+                    Today, Fair Man continues to push boundaries, using his platform to celebrate African culture while addressing contemporary social issues through his music. His latest album "Ubuntu Rhythms" has garnered international acclaim and positioned him as one of Africa's most promising musical ambassadors.
                   </p>
                 </div>
               </div>

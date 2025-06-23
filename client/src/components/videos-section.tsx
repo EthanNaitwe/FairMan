@@ -41,7 +41,7 @@ export default function VideosSection() {
             </h2>
             <div className="w-24 h-1 bg-[var(--rich-green)] mx-auto rounded-full"></div>
             <p className="text-[var(--off-white)]/80 mt-6 max-w-2xl mx-auto">
-              Experience Kwame's visual storytelling through his captivating music videos
+              Experience Fair Man's visual storytelling through his captivating music videos
             </p>
           </div>
           

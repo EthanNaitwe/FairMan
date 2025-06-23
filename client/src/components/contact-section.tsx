@@ -219,7 +219,7 @@ export default function ContactSection() {
                       </div>
                       <div>
                         <p className="text-[var(--off-white)]/60 text-sm">Email</p>
-                        <p className="text-[var(--off-white)] font-medium">booking@kwameasante.music</p>
+                        <p className="text-[var(--off-white)] font-medium">booking@fairman.music</p>
                       </div>
                     </div>
                     

@@ -33,9 +33,9 @@ export default function HeroSection() {
       
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
         <h1 className="font-bold text-4xl md:text-6xl lg:text-7xl mb-6 leading-tight">
-          <span className="text-gradient">KWAME</span>
+          <span className="text-gradient">FAIR</span>
           <br />
-          <span className="text-[var(--off-white)]">ASANTE</span>
+          <span className="text-[var(--off-white)]">MAN</span>
         </h1>
         
         <p className="text-xl md:text-2xl mb-8 font-light text-[var(--off-white)]/90">
