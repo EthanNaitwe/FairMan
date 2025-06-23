@@ -16,7 +16,7 @@ export default function AboutSection() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <img
-                src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=1000"
+                src="https://www.endorse256services.co.ug/images/fairman.png"
                 alt="Fair Man portrait"
                 className="rounded-2xl shadow-2xl w-full max-w-md mx-auto lg:mx-0"
               />
