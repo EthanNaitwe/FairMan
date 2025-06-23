@@ -1,0 +1,129 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: hsl(0, 0%, 100%);
+  --foreground: hsl(20, 14.3%, 4.1%);
+  --muted: hsl(60, 4.8%, 95.9%);
+  --muted-foreground: hsl(25, 5.3%, 44.7%);
+  --popover: hsl(0, 0%, 100%);
+  --popover-foreground: hsl(20, 14.3%, 4.1%);
+  --card: hsl(0, 0%, 100%);
+  --card-foreground: hsl(20, 14.3%, 4.1%);
+  --border: hsl(20, 5.9%, 90%);
+  --input: hsl(20, 5.9%, 90%);
+  --primary: hsl(207, 90%, 54%);
+  --primary-foreground: hsl(211, 100%, 99%);
+  --secondary: hsl(60, 4.8%, 95.9%);
+  --secondary-foreground: hsl(24, 9.8%, 10%);
+  --accent: hsl(60, 4.8%, 95.9%);
+  --accent-foreground: hsl(24, 9.8%, 10%);
+  --destructive: hsl(0, 84.2%, 60.2%);
+  --destructive-foreground: hsl(60, 9.1%, 97.8%);
+  --ring: hsl(20, 14.3%, 4.1%);
+  --radius: 0.5rem;
+
+  /* African aesthetic color palette */
+  --african-red: hsl(0, 78%, 57%);
+  --golden-yellow: hsl(35, 87%, 51%);
+  --rich-green: hsl(145, 52%, 42%);
+  --deep-charcoal: hsl(210, 29%, 24%);
+  --off-white: hsl(192, 15%, 94%);
+  --royal-purple: hsl(283, 39%, 53%);
+}
+
+.dark {
+  --background: hsl(210, 29%, 24%);
+  --foreground: hsl(192, 15%, 94%);
+  --muted: hsl(210, 29%, 16%);
+  --muted-foreground: hsl(210, 5%, 65%);
+  --popover: hsl(210, 29%, 24%);
+  --popover-foreground: hsl(192, 15%, 94%);
+  --card: hsl(210, 29%, 24%);
+  --card-foreground: hsl(192, 15%, 94%);
+  --border: hsl(210, 29%, 16%);
+  --input: hsl(210, 29%, 16%);
+  --primary: hsl(207, 90%, 54%);
+  --primary-foreground: hsl(211, 100%, 99%);
+  --secondary: hsl(210, 29%, 16%);
+  --secondary-foreground: hsl(192, 15%, 94%);
+  --accent: hsl(210, 29%, 16%);
+  --accent-foreground: hsl(192, 15%, 94%);
+  --destructive: hsl(0, 63%, 31%);
+  --destructive-foreground: hsl(192, 15%, 94%);
+  --ring: hsl(210, 5%, 84%);
+  --radius: 0.5rem;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-[var(--deep-charcoal)] text-[var(--off-white)];
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+/* African pattern background */
+.african-pattern {
+  background-image: 
+    linear-gradient(45deg, var(--african-red) 25%, transparent 25%), 
+    linear-gradient(-45deg, var(--golden-yellow) 25%, transparent 25%), 
+    linear-gradient(45deg, transparent 75%, var(--rich-green) 75%), 
+    linear-gradient(-45deg, transparent 75%, var(--royal-purple) 75%);
+  background-size: 80px 80px;
+}
+
+.hero-gradient {
+  background: linear-gradient(135deg, var(--african-red) 0%, var(--golden-yellow) 50%, var(--rich-green) 100%);
+}
+
+.text-gradient {
+  background: linear-gradient(135deg, var(--african-red) 0%, var(--golden-yellow) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--deep-charcoal);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--african-red);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--golden-yellow);
+}
+
+/* Animations */
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+.float {
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes pulse-glow {
+  0%, 100% { box-shadow: 0 0 20px var(--african-red); }
+  50% { box-shadow: 0 0 40px var(--african-red), 0 0 60px var(--golden-yellow); }
+}
+
+.pulse-glow {
+  animation: pulse-glow 2s ease-in-out infinite;
+}
